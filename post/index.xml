@@ -16,5 +16,23 @@
       <description>打开CMD方式  开始+系统+命令提示符 Win +R 输入cmd 文件夹地址栏输入cmd  常用Dos命令 基本操作 #清理屏幕 cls	(clear screen) #打印当前位置 pwd	(print work directory) #退出 exit 文件夹操作 #盘符切换 E: #查看当前目录下所有文件 dir #切换目录 cd	(change directory) cd /d 可以随意切换到目录下 （\是和盘符相关） （/是和路径符相关） #返回上一层 cd.. #文件夹  创建	md 目录名	（make dir） 删除	rd 目录名 #文件  创建	cd&amp;gt; 文件名 删除	del 文件名 #当前文件夹内容列表  ls -l	(list file) 电脑信息 相关 #查看电脑ip ipconfig #ping命令 ping www.baidu.com 附录 #打开应用 calc mspaint notepad </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://lokitfung.github.io/post/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lokitfung.github.io/post/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B/</guid>
+      <description>创建个人博客流程 参考视频连接：https://www.bilibili.com/video/BV1q4411i7gL
+需要准备环境： git， VisualCode
+1.下载Hugo(当前使用0.79.0) https://github.com/gohugoio/hugo/releases
+下载完后解压，然后在目录下面操作cmd
+hugo 2.创建个人博客 hugo new site [你博客的名称] 3. 下载并设置主题(本人用m10c) https://themes.gohugo.io/
+#进入到你的博客目录下 cd [path] #git 克隆主题 例如 ： git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 4.在本地启动个人博客 hugo server -t m10c --buildDrafts 5.开始写博客 hugo new post/blog.md #他会在这里创建 myblog/content/post/blog.md 然后用VisualCode来写
+写完之后回到根目录【myblog】
+6.将个人博客部署到远程服务端 博客是由github pages提供的服务，也就是可以在github pages上建立你自己的博客。 在github上创建仓库lokitfung.github.io （用户名要和你的username一样）
+#在命令行上 --thmee声明你应用的主题 --baseUrl就是你github上仓库的地址  #--buildDrafts意为“编译草稿（draft: true的Markdown文件）” hugo --theme=m10c --baseUrl=&amp;#34;https://lokitfung.github.io/&amp;#34; --buildDrafts #完了他会在当前目录下生成一个public文件 在生成的public上用git命令推到github上
+git init #.是全部文件的意思 git add . git commit -m &amp;#34;我的 hugo 博客第一次提交&amp;#34; # 将本地的git与远程进行关联 git remote add origin https://github.</description>
+    </item>
+    
   </channel>
 </rss>
