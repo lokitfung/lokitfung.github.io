@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on lokitfung</title>
+    <link>https://lokitfung.github.io/post/</link>
+    <description>Recent content in Posts on lokitfung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Dec 2020 15:07:00 +0800</lastBuildDate><atom:link href="https://lokitfung.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用Dos命令</title>
+      <link>https://lokitfung.github.io/post/commondos/</link>
+      <pubDate>Sat, 19 Dec 2020 15:07:00 +0800</pubDate>
+      
+      <guid>https://lokitfung.github.io/post/commondos/</guid>
+      <description>打开CMD方式  开始+系统+命令提示符 Win +R 输入cmd 文件夹地址栏输入cmd  常用Dos命令 基本操作 #清理屏幕 cls	(clear screen) #打印当前位置 pwd	(print work directory) #退出 exit 文件夹操作 #盘符切换 E: #查看当前目录下所有文件 dir #切换目录 cd	(change directory) cd /d 可以随意切换到目录下 （\是和盘符相关） （/是和路径符相关） #返回上一层 cd.. #文件夹  创建	md 目录名	（make dir） 删除	rd 目录名 #文件  创建	cd&amp;gt; 文件名 删除	del 文件名 #当前文件夹内容列表  ls -l	(list file) 电脑信息 相关 #查看电脑ip ipconfig #ping命令 ping www.baidu.com 附录 #打开应用 calc mspaint notepad </description>
+    </item>
+    
+  </channel>
+</rss>
